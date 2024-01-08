@@ -1,0 +1,28 @@
+dikhaao("Pehla number batayen:")
+banao num_one = bataao_int()
+dikhaao("Doosra number batayen:")
+banao num_two = bataao_int()
+dikhaao("")
+
+
+dikhaao("batao kia karna hai??:")
+dikhaao("")
+
+dikhaao("1. Addition ('1' Dabayen)")
+dikhaao("2. Subtraction ('2' Dabayen)")
+dikhaao("3. Division ('3' Dabayen)")
+dikhaao("4. Multiplication ('4' Dabayen)")
+
+
+banao operation = bataao()
+dikhaao("")
+
+dikhaao("Kar raha hu....")
+
+
+banao jawab = (AGAR operation == "1" KARO  (num_one + num_two) MAGAR operation == "2" KARO (num_one - num_two) MAGAR operation == "3" KARO (num_one / num_two) MAGAR operation == "4" KARO (num_one * num_two) WARNA "Ayeiin? ye kia kardia??, 1-4 tak number maanga tha!!")
+
+
+dikhaao("")
+dikhaao("Apka jawab hai:")
+dikhaao(jawab)
